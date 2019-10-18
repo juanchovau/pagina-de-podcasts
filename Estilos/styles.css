@@ -1,0 +1,13 @@
+*{
+    margin: none;
+    padding: none;
+    border: none;
+}
+
+body{
+  
+    width: 600px;
+    background: beige;
+    font-family: 'Lora', 'Open Sans', serif;
+    font-size: large;
+}
