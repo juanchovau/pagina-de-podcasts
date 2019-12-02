@@ -1,90 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="Estilos/styles.css"> 
-    <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="Estilos/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Mierda nos hicimos viejos</title>
-</head>
-<body> 
-<div id="header">
-    <img src="/images/iniciales.png" alt="nimiatura" id="logpeq">
-<label for="menu-toggle">
-	<div class="boton">
-	 <i class="fa fa-bars"></i>
-	</div>
-	</label>
-	<input type="checkbox" id="menu-toggle"/>
-	<ul id="menu">
-	  <li><a href="#">Temporadas</a></li>
-	  <li><a href="#">Acerca de nosotros</a></li>
-	  <li><a href="#">Donde escucharnos</a></li>
-    </ul>
+  </head>
+  <body>
+    <div class="contenedor">
+      <header>
+        <img src="images/XRK7y7QB_normal.jpg" alt="nimiatura" id="logpeq" />
+        <label for="menu-toggle">
+          <div class="boton">
+            <i class="fa fa-bars" id="bars"></i>
+          </div>
+        </label>
+        <input type="checkbox" id="menu-toggle" />
+        <ul id="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#episodios">Episodios</a></li>
+          <li><a href="#quienes">Quienes somos</a></li>
+          <li><a href="#integrantes">Integrantes</a></li>
+          <li><a href="#secciones">Secciones</a></li>
+        </ul>
+        <ul id="menu2">
+          <ol><a href="#home">Home</a></ol>
+          <ol><a href="#episodios">Episodios</a></ol>
+          <ol><a href="#quienes">Quienes somos</a></ol>
+          <ol><a href="#integrantes">Integrantes</a></ol>
+          <ol><a href="#secciones">Secciones</a></ol>
+        </ul>
+      </header>
 
-</div >
-    
-   <div id="presentacion">
-       
-             <h1 id="titulo">Mierda nos hicimos viejos</h1>
-           
-            <p>Carolina, Denisse y Juan hablarán de mil cosas inútiles pero sobre todo sobre el difícil paso de la juventud 
-                a la edad adulta, todo con un gran toque de humor y naturalidad</p>
-                <br> <br>
-            <input type="button" class="enlace" value="Conoce mas">
-   </div>
-   <h2>Episodios recientes</h2>
-<div class="section">
-       
-    <div class="capitulos">
-                
-                <iframe src="https://anchor.fm/mierdanoshicimosviejos/embed/episodes/3-11-Final-de-temporada-Your-mother-e5f6lc" height="102px" width="302px" frameborder="0" scrolling="no"></iframe>
-                <iframe src="https://anchor.fm/mierdanoshicimosviejos/embed/episodes/3-10-Maltrato-infantil-e5bef8" height="102px" width="302px"frameborder="0" scrolling="no"></iframe>
-                <br>
-                <iframe src="https://anchor.fm/mierdanoshicimosviejos/embed/episodes/3-9-El-camello-e58hmh" height="102px" width="302px" frameborder="0" scrolling="no"></iframe>
-                <iframe src="https://anchor.fm/mierdanoshicimosviejos/embed/episodes/3-8-La-patrona-e55hgi" height="102px" width="302px"frameborder="0" scrolling="no"></iframe>
-                <br>
+      <div class="presentacion"id="home">
+        <img src="images/XRK7y7QB_400x400.jpg" alt="logo" />
+
+        <p class="presentacionh2">
+          Carolina, Denisse y Juan hablarán de mil cosas inútiles pero sobre
+          todo sobre el difícil paso de la juventud a la edad adulta, todo con
+          un gran toque de humor y naturalidad
+        </p>
+        <a href="https://anchor.fm/mierdanoshicimosviejos">
+          <input type="button" class="enlace" value="Conoce más" />
+        </a>
+      </div>
+      <h2 class="episodiosh2">Episodios recientes</h2>
+      
+        <div class="capitulos" id="episodios">
+          <div class="capitulos2">
+            <iframe
+            class="audio"
+              src="https://anchor.fm/mierdanoshicimosviejos/embed/episodes/3-11-Final-de-temporada-Your-mother-e5f6lc"
+              height="102px"
+              width="302px"
+              frameborder="0"
+              scrolling="no"
+            ></iframe>
+            <iframe
+              class="audio"
+              src="https://anchor.fm/mierdanoshicimosviejos/embed/episodes/3-10-Maltrato-infantil-e5bef8"
+              height="102px"
+              width="302px"
+              frameborder="0"
+              scrolling="no"
+            ></iframe>
+            <br />
+            <iframe
+             class="audio"
+              src="https://anchor.fm/mierdanoshicimosviejos/embed/episodes/3-9-El-camello-e58hmh"
+              height="102px"
+              width="302px"
+              frameborder="0"
+              scrolling="no"
+            ></iframe>
+            <iframe
+            class="audio"
+              src="https://anchor.fm/mierdanoshicimosviejos/embed/episodes/3-8-La-patrona-e55hgi"
+              height="102px"
+              width="302px"
+              frameborder="0"
+              scrolling="no"
+            ></iframe>
+        </div class="capitulos">
+          
+        </div>
+
+        <div class="quienes" id="quienes">
+          <h2>Quienes somos</h2>
+
+          <img src="images/micro.png" alt="micro" />
+
+          <p>
+            Somos un grupo de amigos quienes nos reunimos a hablar de nuestras
+            experiencias, a reír, pero sobre todo a hablar mi#rd@, !!!No te
+            arrepentirás, escúchanos!!!
+          </p>
+        </div>
+        <div class="integrantes" id="integrantes">
+          <h2>Integrantes</h2>
+          <div class="fotos">
+            <img class="caro" src="images/caro.jpeg" alt="caro" />
+            <img
+              class="juan" src="images/DeepinScreenshot_Seleccionar área_20191018004322.png"
+              alt="juan"
+              
+            />
+            <img class="denisse" 
+            src="images/Denisse.jpeg" alt="Denisse"  />
+          </div>
+        </div>
+        <div class="secciones" id="secciones">
+        <h2>Nuestras secciones</h2>
+        <div class="sec">
+          <i class="fa fa-heart" style="font-size:100px;"></i>
+          <p>Amor/Odio</p>
+        </div>
+        <div class="sec">
+          <i class="fa fa-thumbs-o-up" style="font-size:100px;"></i>
+          <p>Recomendacion</p>
+        </div>
+        <div class="sec">
+          <i class="fa fa-smile-o" style="font-size:100px;"></i>
+          <p>Tema del dia</p>
+        </div>
+        <div class="sec">
+          <i class="fa fa-hashtag" style="font-size:100px;"></i>
+            <p>Hashtag</p>
+        </div>
+          <p>No te pierdas ningun capitulo</p>
+          <a href="https://anchor.fm/mierdanoshicimosviejos">
+            <input type="button" class="enlace" value="Escucha los capitulos" />
+          </a>
+        </div>    
+      <footer>
+        <p>&copy; 2019 Juan Vargas</p>
+        <a class="fa1" href="https://www.facebook.com/juansebastian.vargasarevalo">
+          <i  class="fa fa-facebook-square"></i>
+        </a>
+        <a class="fa2" href="https://anchor.fm/mierdanoshicimosviejos">
+        <i class="fa fa-rss-square"></i>
+        </a>
+        <a class="fa3" href="https://twitter.com/MierdaViejos">
+        <i  class="fa fa-tumblr-square"></i>
+        </a>
+        <a class="fa4" href="https://www.instagram.com/mierdaviejos/">
+        <i  class="fa fa-instagram"></i>
+        </a>
+      </footer>
     </div>
-
-        <div class="quienes">
-                <h2>Quienes somos</h2>
-                
-                <img src="images/micro.png" alt="micro" width="200px" > <br>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias in deleniti eveniet veritatis libero. Dolore quas rem accusamus ipsa quo laboriosam, repellat, facere voluptatibus tenetur distinctio architecto sequi recusandae similique!</p>
-    
-        </div>          
-         <div class="integrantes">
-                <h2>Integrantes</h2>
-                <img src="images/caro.jpeg" alt="caro" width="360px" >
-                <img src="images/DeepinScreenshot_Seleccionar área_20191018004322.png" alt="juan" width="360px">
-                <img src="images/Denisse.jpeg" alt="Denisse" width="360px" >
-           </div>
-</div>
-
-       <div class="secciones">
-            <h2>Nuestras secciones</h2>
-            <i class="fa fa-heart" style="font-size:100px;"></i> 
-            <P>Amor/Odio</P>
-            <i class="fa fa-thumbs-o-up" style="font-size:100px;"></i> 
-            <P>Recomendacion</P>
-            <i class="fa fa-smile-o" style="font-size:100px;"></i> 
-            <P>Tema del dia</P>
-            <i class="fa fa-hashtag" style="font-size:100px;"></i> 
-            <P>Hashtag</P>
-            <div class="pierdas">
-                <p>No te pierdas ningun capitulo</p>
-                <input type="button" class="enlace" value="Escucha los capitulos">
-            </div>
-       </div>
-<footer>
-            <p>&copy; 2019 Juan Vargas<p> </p>
-            <i class="fa fa-facebook-square"></i>
-            <i class="fa fa-rss-square"></i>
-            <i class="fa fa-tumblr-square"></i>
-            <i class="fa fa-instagram"></i>
-</footer>
-   
-</body>
+  </body>
 </html>
