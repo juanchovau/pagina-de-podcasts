@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css?family=Lora&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -17,31 +18,38 @@
   </head>
   <body>
     <div class="contenedor">
-      <header>
-        <img src="images/XRK7y7QB_400x400.jpg" alt="nimiatura" id="logpeq" />
-        <label for="menu-toggle">
-          <div class="boton">
-            <i class="fa fa-bars" id="bars"></i>
+      
+        <input type="checkbox" id="btn-nav" class="checkbox">
+        <header>
+          <div class="header-container">
+            <img class="header-logo" src="images/XRK7y7QB_400x400.jpg">
+            <label for="btn-nav" class="btn-label">
+              <div class="header-button"></div>
+            </label>
           </div>
-        </label>
-        <input type="checkbox" id="menu-toggle" />
-        <nav id="menu">
+
+
+        <nav id="menu2">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#episodios">Episodios</a></li>
+            <li><a href="#quienes">Quienes somos</a></li>
+            <li><a href="#integrantes">Integrantes</a></li>
+            <li><a href="#secciones">Secciones</a></li>
+          </ul>
+        </nav>
+      </header>
+      <nav class="menu">
+        <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#episodios">Episodios</a></li>
           <li><a href="#quienes">Quienes somos</a></li>
           <li><a href="#integrantes">Integrantes</a></li>
           <li><a href="#secciones">Secciones</a></li>
-        </nav>
-        <nav id="menu2">
-          <ol><a href="#home">Home</a></ol>
-          <ol><a href="#episodios">Episodios</a></ol>
-          <ol><a href="#quienes">Quienes somos</a></ol>
-          <ol><a href="#integrantes">Integrantes</a></ol>
-          <ol><a href="#secciones">Secciones</a></ol>
-        </nav>
-      </header>
+        </ul>
+      </nav>
 
-      <div class="presentacion"id="home">
+      <div class="presentacion" id="home">
         <img src="images/XRK7y7QB_400x400.jpg" alt="logo" />
 
         <p class="presentacionh2">
@@ -50,110 +58,103 @@
           un gran toque de humor y naturalidad
         </p>
         <a href="https://anchor.fm/mierdanoshicimosviejos">
-          <input type="button" class="enlace" value="Conoce más" />
+          <div id="botoninicial" class="enlace">
+            <p>
+              Conoce más
+            </p>
+          </div>
         </a>
       </div>
       <h2 class="episodiosh2">Episodios recientes</h2>
-      
-        <div class="capitulos" id="episodios">
-          <div class="capitulos2">
-            <iframe
+
+      <div class="capitulos" id="episodios">
+        <div class="capitulos2">
+          <iframe
             class="audio"
-              src="https://anchor.fm/mierdanoshicimosviejos/embed/episodes/3-11-Final-de-temporada-Your-mother-e5f6lc"
-              height="102px"
-              width="302px"
-              frameborder="0"
-              scrolling="no"
-            ></iframe>
-            <iframe
-              class="audio"
-              src="https://anchor.fm/mierdanoshicimosviejos/embed/episodes/3-10-Maltrato-infantil-e5bef8"
-              height="102px"
-              width="302px"
-              frameborder="0"
-              scrolling="no"
-            ></iframe>
-            <br />
-            <iframe
-             class="audio"
-              src="https://anchor.fm/mierdanoshicimosviejos/embed/episodes/3-9-El-camello-e58hmh"
-              height="102px"
-              width="302px"
-              frameborder="0"
-              scrolling="no"
-            ></iframe>
-            <iframe
+            src="https://open.spotify.com/embed-podcast/episode/2QBccL3HD4Vq6cnfuILaBw"
+          ></iframe>
+
+          <iframe
             class="audio"
-              src="https://anchor.fm/mierdanoshicimosviejos/embed/episodes/3-8-La-patrona-e55hgi"
-              height="102px"
-              width="302px"
-              frameborder="0"
-              scrolling="no"
-            ></iframe>
-        </div class="capitulos">
-          
-        </div>
+            src="https://open.spotify.com/embed-podcast/episode/30t5XQcXJ5zGeZj7tM2ceZ"
+          ></iframe>
+          <br />
+          <iframe
+            class="audio"
+            src="https://open.spotify.com/embed-podcast/episode/3XmkgrtAG1AxVZfFlLidDz"
+          ></iframe>
 
-        <div class="quienes" id="quienes">
-          <h2>Quienes somos</h2>
-
-          <img src="images/micro.png" alt="micro" />
-
-          <p>
-            Somos un grupo de amigos quienes nos reunimos a hablar de nuestras
-            experiencias, a reír, pero sobre todo a hablar mi#rd@, !!!No te
-            arrepentirás, escúchanos!!!
-          </p>
+          <iframe
+            class="audio"
+            src="https://open.spotify.com/embed-podcast/episode/5PxX0lOGyaawp1o4bajy6L"
+          ></iframe>
         </div>
-        <div class="integrantes" id="integrantes">
-          <h2>Integrantes</h2>
-          <div class="fotos">
-            <img class="caro" src="images/caro.jpeg" alt="caro" />
-            <img
-              class="juan" src="images/DeepinScreenshot_Seleccionar área_20191018004322.png"
-              alt="juan"
-              
-            />
-            <img class="denisse" 
-            src="images/Denisse.jpeg" alt="Denisse"  />
-          </div>
+      </div>
+
+      <div class="quienes" id="quienes">
+        <h2>Quienes somos</h2>
+
+        <img src="images/micro.png" alt="micro" />
+
+        <p>
+          Somos un grupo de amigos quienes nos reunimos a hablar de nuestras
+          experiencias, a reír, pero sobre todo a hablar mi#rd@, !!!No te
+          arrepentirás, escúchanos!!!
+        </p>
+      </div>
+      <div class="integrantes" id="integrantes">
+        <h2>Integrantes</h2>
+        <div class="fotos">
+          <img class="caro" src="images/caro.jpeg" alt="caro" />
+          <img class="juan" src="images/juan.png" alt="juan" />
+          <img class="denisse" src="images/Denisse.jpeg" alt="Denisse" />
         </div>
-        <div class="secciones" id="secciones">
+      </div>
+      <div class="secciones" id="secciones">
         <h2>Nuestras secciones</h2>
         <div class="sec">
           <i class="fa fa-heart" style="font-size:100px;"></i>
-          <p>Amor/Odio</p>
+          <h4>Amor/Odio</h4>
         </div>
         <div class="sec">
           <i class="fa fa-thumbs-o-up" style="font-size:100px;"></i>
-          <p>Recomendacion</p>
+          <h4>Recomendacion</h4>
         </div>
         <div class="sec">
           <i class="fa fa-smile-o" style="font-size:100px;"></i>
-          <p>Tema del dia</p>
+          <h4>Tema del dia</h4>
         </div>
         <div class="sec">
           <i class="fa fa-hashtag" style="font-size:100px;"></i>
-            <p>Hashtag</p>
+          <h4>Hashtag</h4>
         </div>
-          <p>No te pierdas ningun capitulo</p>
-          <a href="https://anchor.fm/mierdanoshicimosviejos">
-            <input type="button" class="enlace" value="Escucha los capitulos" />
-          </a>
-        </div>    
+
+
+        <a href="https://anchor.fm/mierdanoshicimosviejos">
+          <div id="botonfinal" class="enlace">
+            <p>
+          No te pierdas ningun capítulo
+        </p>
+        </div>
+        </a>
+
+      </div>
       <footer>
         <p>&copy; 2019 Juan Vargas</p>
-        <a class="fa1" href="https://www.facebook.com/juansebastian.vargasarevalo">
-          <i  class="fa fa-facebook-square"></i>
+        <a
+          class="fa1"
+          href="https://www.facebook.com/juansebastian.vargasarevalo"
+        >
+          <i class="fa fa-facebook-square"></i>
         </a>
         <a class="fa2" href="https://anchor.fm/mierdanoshicimosviejos">
-        <i class="fa fa-rss-square"></i>
+          <i class="fa fa-rss-square"></i>
         </a>
         <a class="fa3" href="https://twitter.com/MierdaViejos">
-        <i  class="fa fa-tumblr-square"></i>
+          <i class="fa fa-tumblr-square"></i>
         </a>
         <a class="fa4" href="https://www.instagram.com/mierdaviejos/">
-        <i  class="fa fa-instagram"></i>
+          <i class="fa fa-instagram"></i>
         </a>
       </footer>
     </div>
